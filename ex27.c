@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-//DeclaraÁ„o de vari·veis
+//Declara√ß√£o de vari√°veis
     float a, b, c, d, e, f, x, y, denominador;
 //Entrada
     printf("Resolucao de um sistema de equacoes lineares:\n");
@@ -19,14 +19,15 @@ int main() {
     scanf("%f", &e);
     printf("Digite o termo independente 'f': ");
     scanf("%f", &f);
-    //Processamento
+//Processamento
     denominador = (a * e) - (b * d);
     x = (c * e - b * f) / denominador;
     y = (a * f - c * d) / denominador;
-    //SaÌda
+//Sa√≠da
     printf("A solucao para o sistema e:\n");
     printf("x = %.2f\n", x);
     printf("y = %.2f\n", y);
 
     return 0;
 }
+
