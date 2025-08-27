@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    //DeclaraÁ„o de vari·veis
+//Declara√ß√£o de vari√°veis
     float valor_compra, valor_prestaca
-    //Entrada
+//Entrada
     printf("--- Loja Mamao com Acucar ---\n");
     printf("Digite o valor total da sua compra: R$ ");
     scanf("%f", &valor_compra);
-    //Processamento
+//Processamento
     valor_prestacao = valor_compra / 5.0f;
-    //SaÌda
+//Sa√≠da
     printf("O valor de cada uma das 5 prestacoes sera de: R$ %.2f\n", valor_prestacao);
 
     return 0;
 }
+
