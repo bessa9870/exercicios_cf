@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    //Declarando vari·veis
+//Declarando vari√°veis
     float largura, comprimento, area;
-    //Entrada
+//Entrada
     printf("Digite a largura:");
     scanf("%f", &largura);
     printf("Digite o comprimento:");
     scanf("%f", &comprimento);
-    //Processamento
+//Processamento
     area= largura * comprimento;
-    //SaÌda
+//Sa√≠da
     printf("A area do seu lote seria:%.1f metros quadrados", area);
     return 0;
 }
+
