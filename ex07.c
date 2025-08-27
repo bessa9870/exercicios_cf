@@ -1,17 +1,19 @@
-#include <math.h> //Essa biblioteca aqui me permite usar a funÁ„o para potenciar os numeros
+#include <math.h> //Essa biblioteca aqui me permite usar a fun√ß√£o para potenciar os numeros
 #include <stdio.h>
 
 int main(){
-float base, expoente, resultado; //Vou usar o tipo double pq quando eu pesquisei parece que a funÁ„o funciona melhor com esse tipo
-//Declarando as vari·veis
-printf("Digite a base aqui: ");
-scanf("%f", &base);
-printf("Digite o expoente aqui: ");
-scanf("%f", &expoente);
+  float base, expoente, resultado; 
+//Vou usar o tipo double pq quando eu pesquisei parece que a fun√ß√£o funciona melhor com esse tipo
+//Declarando as vari√°veis
+  printf("Digite a base aqui: ");
+  scanf("%f", &base);
+  printf("Digite o expoente aqui: ");
+  scanf("%f", &expoente);
 //O processamento
-resultado = pow(base, expoente);
-//SaÌda
-printf("O resultado seria: %f", resultado);
+  resultado = pow(base, expoente);
+//Sa√≠da
+  printf("O resultado seria: %f", resultado);
 
-return 0;
+  return 0;
 }
+
