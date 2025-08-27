@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include<stdlib.h>
 int main(){
-//declaraÁ„o de vari·vel :D
-float nt1, nt2, nt3, Media;//tipo e nome
+//declara√ß√£o de vari√°vel :D
+  float nt1, nt2, nt3, Media;//tipo e nome
 //Comandos de entrada
-printf("Primeira nota");
-scanf("%f", &nt1);
-printf("Segunda nota");
-scanf("%f", &nt2);
-printf("Terceira nota");
-scanf("%f", &nt3);
-//Aqui È o processamento
-Media = (nt1 + nt2 + nt3)/3;
-//E agora vem os comandos de saÌda
-printf("A media: %f",Media);
-return 0;
+  printf("Primeira nota");
+  scanf("%f", &nt1);
+  printf("Segunda nota");
+  scanf("%f", &nt2);
+  printf("Terceira nota");
+  scanf("%f", &nt3);
+//Aqui √© o processamento
+  Media = (nt1 + nt2 + nt3)/3;
+//E agora vem os comandos de sa√≠da
+  printf("A media: %f",Media);
+  return 0;
 }
+
 
