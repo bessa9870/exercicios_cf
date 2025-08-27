@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main(){
-//DeclaraÁ„o de vari·vies
-float salario_func, salario_min, resultado;
+//Declara√ß√£o de vari√°vies
+  float salario_func, salario_min, resultado;
 //Entrada
-printf("Digite o valor do salario: ");
-scanf("%f", &salario_func);
-salario_min = 1.518;
+  printf("Digite o valor do salario: ");
+  scanf("%f", &salario_func);
+  salario_min = 1.518;
 //Processamento
-resultado = salario_func / salario_min;
-//SaÌda
-printf("Esse funcionario ganha: %f salario's' minimos's'", resultado);
-return 0;
+  resultado = salario_func / salario_min;
+//Sa√≠da
+  printf("Esse funcionario ganha: %f salario's' minimos's'", resultado);
+  return 0;
 }
+
 
